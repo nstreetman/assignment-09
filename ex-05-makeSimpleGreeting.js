@@ -15,10 +15,11 @@
  */
 
  function makeSimpleGreeting(userName,returningTorF){
-   if (returningTorF===true){
-     return "Welcome back, " + userName +"."
-   }
- //   else {return "Hello there, " + userName + "!"}
+      if (returningTorF === true){
+        return "Welcome back, " + userName +"."
+      }else {return "Hello there, " + userName + "!"
+    }
+  }
  // }
 
 

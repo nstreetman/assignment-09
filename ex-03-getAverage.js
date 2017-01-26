@@ -7,6 +7,7 @@
 
 function getAverage(number1,number2){
   var averageTwo = (number1 + number2) / 2
+
   return averageTwo
 }
 

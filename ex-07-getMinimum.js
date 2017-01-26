@@ -6,8 +6,10 @@
 // boolean operators, or both (but not neither).
 
 function getMinimum(number1,number2,number3,number4){
-	if
-   return number1
+	if {
+		number1<number2
+	}
+   return 
 }
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

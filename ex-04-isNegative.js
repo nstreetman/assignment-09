@@ -5,8 +5,9 @@
 // whether a number is negative or not.
 
 function isNegative(number){
-  if (number >= 0 ) {
-    return false }
+  if (number >= 0 )
+  {return false
+  }
   else {
     return true
   }
