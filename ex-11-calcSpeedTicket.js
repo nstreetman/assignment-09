@@ -14,12 +14,23 @@
 //   20 mph or more               : $250
 //
 
-// Examples:
+// Example:
 //  calcSpeedTicket(20, 30, true)
 //  => 300
 
 //  calcSpeedTicket(20, 30, false)
 //  => 150
+
+function calcSpeedTicket(spLimit, clockedSpeed,schoolZone) {
+   var fineAmount {
+     if (clockedSpeed <= spLimit + 5){
+       fine=0
+    } else if (clockedSpeed <= spLimit + 5){
+       fine=150
+    } else{
+      fine=250
+    }
+   }
 
 
 

@@ -6,21 +6,16 @@
 // that accepts two arguments and will return true if either input is a string,
 // but returns false if both arguments or neither are strings.
 
-// function justOneString (arg1, arg2) {
-//   if (arg1 || arg2 === string) && (arg1 && arg2 !== string);
-//     {return true
-//   }
-//   else { return false
-//   }
-// }
 
-var justOneString(arg1, arg2){
-    if (typeof arg1="string" && typeof arg2!=="string") ||
-     (typeof arg2="string" && typeof arg1!=="string")
-    {return true
+function justOneString(arg1, arg2){
+    if (typeof arg1==="string" && typeof arg2==="string") {
+      return false;
+    } else if
+     (typeof arg2==="string" || typeof arg1==="string"){
+       return true
     } else {
-        return false
-      }
+       return false
+    }
 }
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
